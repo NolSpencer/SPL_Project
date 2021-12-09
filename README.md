@@ -20,6 +20,8 @@ Below, I showcase each programming paradigm and provide some sample code that il
 R is an interpreted language because it will automatically run the scripts and thus doesn't need compiled.
 ![image](https://user-images.githubusercontent.com/77764696/145339180-f0066faf-04c8-41b6-96bf-31b46c7364a9.png)
 
+C++ needs to be compiled to run
+
 ```C++
 int main(){
   std::cout << "Hello World" << endl;
