@@ -1,7 +1,5 @@
 # Structure of Programming Languages - Project
 
-C++ and R are both very influential in 
-
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
 2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
