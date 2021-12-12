@@ -6,7 +6,6 @@ In the following example code, the following programming paradigms will be showc
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
 2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
 3. [Pass by Value & Reference vs. Dynamic Passing](#pass-by-value--reference-vs-dynamic-passing)
-4. [Static Typing vs. Dynamic Typing](#static-typing-vs-dynamic-typing) 
 
 These paradigms are all present within the final [submission code](#project-submission).
 
@@ -40,12 +39,40 @@ C++ You manually will have to deallocate resources
 n = new sample_object;
 delete n;
 ```
-
+For R
 GC automatically releases memory when an object is no longer used. It does this by tracking how many names point to each object, and when there are no names pointing to an object, it deletes that object.
 
-## 
+## Lexical Scoping vs Global & Local & Block Scoping
+In C++ there are 3 types of scoping. Global Scoping, Local Scoping, and Block Scoping. An example of each is below.
 
+C++ Scoping
+```C++
+//Scoping
+int num = 1;
+int main ()
+{
+  cout << "Global number: " << num << endl;
+  int num = 2;
+  cout << "Local number: " << num << endl;
+  {
+    int num = 3;
+    cout << "Block number: " << num << endl;
+  }
+  return 0;
+}
+```
+Output:
+Global number: 1
+Local number: 2
+Block number: 3
 
-
+R uses Lexical Scoping which in R programming means that the values of the free variables are searched for in the environment in which the function was defined.
+```R
+f <- function(x, y)
+{
+  x * y * z
+}
+```
+z is the free variable in this
 
 
