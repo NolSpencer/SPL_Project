@@ -95,7 +95,7 @@ int main ()
 }
 ```
 We will compile this with 
-```clang++ -std=C++11 Fib.cpp.``` 
+```clang++ -std=C++11 Fib.cpp``` 
 Then since we don't have to allocate any objects then we don't need garbage collection. Lastly, local scoping is used in the main function and fib.
 ```R
 recurse_fibonacci <- function(n) {
