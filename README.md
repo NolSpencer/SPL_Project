@@ -3,7 +3,7 @@
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
 2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
-3. [Lexical Scoping vs Global, Local & Block Scoping](#lexical-scoping-vs-global-,-local-&-block-scoping)
+3. [Lexical Scoping vs Global, Local & Block Scoping](#lexical-scoping-vs-global-local--block-scoping)
 
 ## Code Submissions
 
