@@ -5,7 +5,7 @@ C++ and R are both very influential in
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
 2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
-3. [Lexical Scoping vs Global & Local & Block Scoping](#lexical-scoping-vs-global-&-local-&-block-scoping)
+3. [Lexical Scoping vs Global, Local & Block Scoping](#lexical-scoping-vs-global-,-local-&-block-scoping)
 
 ## Code Submissions
 
@@ -40,7 +40,7 @@ delete n;
 For R
 GC automatically releases memory when an object is no longer used. It does this by tracking how many names point to each object, and when there are no names pointing to an object, it deletes that object.
 
-## Lexical Scoping vs Global & Local & Block Scoping
+## Lexical Scoping vs Global, Local & Block Scoping
 In C++ there are 3 types of scoping. Global Scoping, Local Scoping, and Block Scoping. An example of each is below.
 
 C++ Scoping
