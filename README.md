@@ -57,11 +57,12 @@ int main ()
   return 0;
 }
 ```
+```
 Output:
 Global number: 1
 Local number: 2
 Block number: 3
-
+```
 R uses Lexical Scoping which in R programming means that the values of the free variables are searched for in the environment in which the function was defined.
 ```R
 f <- function(x, y)
