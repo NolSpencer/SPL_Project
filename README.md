@@ -2,7 +2,7 @@
 
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
-2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
+2. [Automatic Garbage Collection vs. Manual Allocation and Deallocation](#automatic-garbage-collection-vs-manual-allocation-and-deallocation)
 3. [Lexical Scoping vs Global, Local & Block Scoping](#lexical-scoping-vs-global-local--block-scoping)
 
 ## Code Submissions
@@ -28,8 +28,8 @@ clang++ -std=c++11 main.cpp
 ./a.out
 ```
 
-## Automatic Garbage Collection vs Manual Garbage Collection
-C++ You manually will have to deallocate resources
+## Automatic Garbage Collection vs Manual Allocation and Deallocation
+For C++ there is no garbage collection so you have to allocate and deallocate manually. 
 
 ```C++
 n = new sample_object;
