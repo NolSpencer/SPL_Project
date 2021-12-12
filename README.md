@@ -4,9 +4,9 @@ C++ and R are both very influential in
 
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
-2. [Static Typing vs. Dynamic Typing](#static-typing-vs-dynamic-typing)
+2. [Smart Allocation vs. Garbage Collection](#smart-allocation-vs-garbage-collection)
 3. [Pass by Value & Reference vs. Dynamic Passing](#pass-by-value--reference-vs-dynamic-passing)
-4. [Smart Allocation vs. Garbage Collection](#smart-allocation-vs-garbage-collection)
+4. [Static Typing vs. Dynamic Typing](#static-typing-vs-dynamic-typing) 
 
 These paradigms are all present within the final [submission code](#project-submission).
 
@@ -32,4 +32,14 @@ To compile and run
 clang++ -std=c++11 main.cpp
 ./a.out
 ```
+
+## Automatic Garbage Collection vs Manual Garbage Collection
+http://adv-r.had.co.nz/memory.html#gc for R
+https://www.educba.com/c-plus-plus-garbage-collection/ for C++
+
+
+
+
+
+
 
