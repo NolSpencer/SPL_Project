@@ -8,6 +8,7 @@ In the following example code, the following programming paradigms will be showc
 ## Code Submissions
 
 Below, I showcase each programming paradigm and provide some sample code that illustrates it.
+The Final Submission Section includes the explanation of the final code and paradigms.
 
 # Paradigms
 
