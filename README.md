@@ -4,7 +4,7 @@ C++ and R are both very influential in
 
 In the following example code, the following programming paradigms will be showcased:
 1. [Compiled vs. Interpreted](#compiled-vs-interpreted)
-2. [Smart Allocation vs. Garbage Collection](#smart-allocation-vs-garbage-collection)
+2. [Automatic Garbage Collection vs. Manual Garbage Collection](#automatic-garbage-collection-vs-manual-garbage-collection)
 3. [Pass by Value & Reference vs. Dynamic Passing](#pass-by-value--reference-vs-dynamic-passing)
 4. [Static Typing vs. Dynamic Typing](#static-typing-vs-dynamic-typing) 
 
@@ -34,10 +34,16 @@ clang++ -std=c++11 main.cpp
 ```
 
 ## Automatic Garbage Collection vs Manual Garbage Collection
-http://adv-r.had.co.nz/memory.html#gc for R
-https://www.educba.com/c-plus-plus-garbage-collection/ for C++
+C++ You manually will have to deallocate resources
 
+```C++
+n = new sample_object;
+delete n;
+```
 
+GC automatically releases memory when an object is no longer used. It does this by tracking how many names point to each object, and when there are no names pointing to an object, it deletes that object.
+
+## 
 
 
 
